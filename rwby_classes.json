@@ -2,7 +2,7 @@
     {
         "type": "profession",
         "ident": "blake",
-        "name": "Huntress",
+        "name": "Huntress - Blake",
         "description": "Master of stealth and running away.",
         "points": 4,
         "skills": [
@@ -40,7 +40,6 @@
             }
         ],
 		"CBMs":[
-                "bio_torsionratchet",
 				"bio_nanobots",
                 "bio_power_storage_mkII",
 				"bio_power_storage_mkII",
@@ -54,12 +53,16 @@
 				"bio_power_storage_mkII",
 				"bio_power_storage_mkII",
 				"bio_power_storage_mkII",
-				"bio_teleport",
 				"bio_ads",
 				"bio_metabolics",
 				"bio_uncanny_dodge",
+				
 				"bio_earplugs",
-				"bio_ears"
+				"bio_ears",
+				
+				"bio_dex_enhancer",
+				"bio_teleport",
+				"bio_speed"
         ],
         "items": {
             "female": [
@@ -72,6 +75,97 @@
 				"arm_warmers",
 				"vest_leather",
 				"gambolshroud"
+            ]
+        }
+    },
+	{
+        "type": "profession",
+        "ident": "yang",
+        "name": "Huntress - Yang",
+        "description": "Master of tanking hits and punching things",
+        "points": 4,
+        "skills": [
+            {
+                "level": 4,
+                "name": "melee"
+            },
+			{
+                "level": 4,
+                "name": "gun"
+            },
+            {
+                "level": 6,
+                "name": "shotgun"
+            },
+			{
+                "level": 6,
+                "name": "unarmed"
+            },
+            {
+                "level": 4,
+                "name": "dodge"
+            },
+			{
+                "level": 2,
+                "name": "mechanics"
+            },
+			{
+                "level": 2,
+                "name": "driving"
+            },
+			{
+                "level": 4,
+                "name": "fabrication"
+            },
+            {
+                "level": 2,
+                "name": "firstaid"
+            }
+        ],
+		"CBMs":[
+				"bio_nanobots",
+                "bio_power_storage_mkII",
+				"bio_power_storage_mkII",
+				"bio_power_storage_mkII",
+				"bio_power_storage_mkII",
+				"bio_power_storage_mkII",
+				"bio_power_storage_mkII",
+				"bio_power_storage_mkII",
+				"bio_power_storage_mkII",
+				"bio_power_storage_mkII",
+				"bio_power_storage_mkII",
+				"bio_power_storage_mkII",
+				"bio_power_storage_mkII",
+				"bio_ads",
+				"bio_metabolics",
+				"bio_uncanny_dodge",
+				
+				"bio_earplugs",
+				"bio_ears",
+				
+				"bio_heat_absorb",
+				"bio_ethanol",
+				"bio_str_enhancer",
+				"bio_adrenaline",
+				"bio_carbon",
+				"bio_painkiller",
+				"bio_shockwave",
+				"bio_hydraulics",
+				"bio_speed"
+        ],
+        "items": {
+            "female": [
+                "bra",
+				"panties",
+				"hot_pants",
+				"socks",
+				"knee_high_boots",
+				"tank_top",
+				"gloves_fingerless",
+				"jacket_leather",
+				"scarf",
+				"sunglasses",
+				"ember_celica"
             ]
         }
     }

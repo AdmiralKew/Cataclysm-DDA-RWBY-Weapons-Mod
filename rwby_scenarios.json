@@ -4,12 +4,25 @@
     "ident" : "remnant_blake",
     "name" : "Remnant - Blake",
     "points" : 2,
-    "description": "You wake up in a strange place in the middle of a cataclysm with nothing but your clothes and Gambol Shroud. Descent from shadow.",
+    "description": "You wake up in a strange place in the middle of a cataclysm with nothing but your clothes and Gambol Shroud. Descend from shadow.",
     "start_name" : "In a strange city",
     "allowed_locs" : ["house","s_grocery","s_gun","s_garage","pawn","bank","mil_surplus","furniture","s_library","s_bookstore","boarded_house"],
 	"professions" : ["blake"],
     "forced_traits" : 	[
 	"LIGHTSTEP","SELFAWARE","ADRENALINE","QUICK","DEFT","PRETTY","PARKOUR","FLEET","FASTREADER","FELINE_EARS","ELFA_NV","MARTIAL_ARTS5"
+	]
+},
+{
+    "type": "scenario",
+    "ident" : "remnant_yang",
+    "name" : "Remnant - Yang",
+    "points" : 2,
+    "description": "You wake up in a strange place in the middle of a cataclysm with nothing but your clothes and Ember Celica. Burn Gold.",
+    "start_name" : "In a strange city",
+    "allowed_locs" : ["house","s_grocery","s_gun","s_garage","pawn","bank","mil_surplus","furniture","s_library","s_bookstore","boarded_house"],
+	"professions" : ["yang"],
+    "forced_traits" : 	[
+	"FLEET","PARKOUR","GOODCARDIO","PAINRESIST","TOUGH2","STRONGSTOMACH","DEFT","ADRENALINE","BEAUTIFUL"
 	]
 }
 ]

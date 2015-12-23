@@ -26,8 +26,8 @@
         "cut_mult" : 0.66,
 		"weighting" : 20,
         "messages" : [
-            "You strike with both weapons in quick succession",
-            "<npcname> quickly strikes with both weapons in quick succession"
+            "You strike twice in quick succession",
+            "<npcname> quickly strikes twice in quick succession"
         ]
 }
 ]
