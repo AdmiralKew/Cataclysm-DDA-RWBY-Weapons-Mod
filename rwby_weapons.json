@@ -1,0 +1,72 @@
+[
+  {
+   "id": "gambolshroud",
+    "type": "GUN",
+    "symbol": "l",
+    "color": "dark_gray",
+    "name": "Gambol Shroud",
+    "name_plural": "Gambol Shrouds",
+    "description": "A folding katana with a pistol that serves as its grip, paired with a cleaver-like weapon that also serves as its sheath.",
+    "price": 150000,
+    "material": ["steel", "plastic"],
+    "flags": ["SLICE", "DURABLE_MELEE", "SHEATH_SWORD"],
+    "skill": "pistol",
+    "ammo": "9mm",
+    "weight": 1200,
+    "volume": 7,
+    "bashing": 4,
+    "cutting": 31,
+    "to_hit": 3,
+    "ranged_damage": -2,
+    "dispersion": 240,
+    "sight_dispersion": 90,
+    "aim_speed" : 4,
+    "recoil": 90,
+    "durability": 11,
+    "clip_size": 15,
+    "reload": 300,
+    "loudness" : 160,
+	"armor_data" : {
+         "covers" : ["TORSO"],
+         "coverage" : 5,
+         "material_thickness" : 1,
+         "encumbrance" : 5,
+         "warmth" : 0
+     },
+    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "grip", 1 ],[ "magazine", 2 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
+    "techniques": ["WBLOCK_2","RAPID","SPIN","WRAP","DUAL","DUAL_BRUTAL"],
+	"qualities": [["CUT", 1], ["BUTCHER", 9]]
+  },
+  {
+        "type" : "ARMOR",
+        "id" : "gambolshroudscabbard",
+        "name" : "Gambol Shroud's sheath",
+        "weight" : 1500,
+        "color" : "brown",
+        "covers" : ["LEG_EITHER"],
+        "to_hit" : 0,
+        "symbol" : "[",
+        "description" : "Gambol Shroud's sheath, which is also a sword.",
+        "price" : 6000,
+        "material": ["steel", "plastic"],
+        "volume" : 8,
+        "cutting" : 25,
+        "bashing" : 15,
+        "warmth" : 0,
+        "phase" : "solid",
+        "encumbrance" : 7,
+        "coverage" : 15,
+        "material_thickness" : 1,
+        "flags" : ["VARSIZE", "WAIST", "OVERSIZE", "SLICE", "DURABLE_MELEE", "SHEATH_SWORD", "IAIJUTSU", "STAB"],
+		"qualities": [["CUT", 1], ["BUTCHER", 5]],
+        "use_action" : {
+            "type": "holster",
+            "holster_prompt": "Sheath sword",
+            "holster_msg": "You sheath your %s",
+            "max_volume": 10,
+            "flags": ["SHEATH_SWORD"]
+		}
+	}
+]
+
+

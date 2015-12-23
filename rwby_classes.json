@@ -1,0 +1,78 @@
+[
+    {
+        "type": "profession",
+        "ident": "blake",
+        "name": "Huntress",
+        "description": "Master of stealth and running away.",
+        "points": 4,
+        "skills": [
+            {
+                "level": 4,
+                "name": "melee"
+            },
+			{
+                "level": 4,
+                "name": "gun"
+            },
+            {
+                "level": 6,
+                "name": "cutting"
+            },
+            {
+                "level": 6,
+                "name": "pistol"
+            },
+            {
+                "level": 8,
+                "name": "dodge"
+            },
+			{
+                "level": 3,
+                "name": "mechanics"
+            },
+			{
+                "level": 6,
+                "name": "fabrication"
+            },
+            {
+                "level": 2,
+                "name": "firstaid"
+            }
+        ],
+		"CBMs":[
+                "bio_torsionratchet",
+				"bio_nanobots",
+                "bio_power_storage_mkII",
+				"bio_power_storage_mkII",
+				"bio_power_storage_mkII",
+				"bio_power_storage_mkII",
+				"bio_power_storage_mkII",
+				"bio_power_storage_mkII",
+				"bio_power_storage_mkII",
+				"bio_power_storage_mkII",
+				"bio_power_storage_mkII",
+				"bio_power_storage_mkII",
+				"bio_power_storage_mkII",
+				"bio_power_storage_mkII",
+				"bio_teleport",
+				"bio_ads",
+				"bio_metabolics",
+				"bio_uncanny_dodge",
+				"bio_earplugs",
+				"bio_ears"
+        ],
+        "items": {
+            "female": [
+                "bra",
+				"panties",
+				"hot_pants",
+				"stockings",
+				"heels",
+				"halter_top",
+				"arm_warmers",
+				"vest_leather",
+				"gambolshroud"
+            ]
+        }
+    }
+]

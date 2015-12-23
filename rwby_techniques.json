@@ -1,0 +1,33 @@
+[
+{
+        "type" : "technique",
+        "id" : "DUAL_BRUTAL",
+        "name" : "Dual Brutal Strike",
+        "unarmed_allowed" : true,
+        "melee_allowed" : true,
+        "crit_tec" : true,
+        "stun_dur" : 2,
+        "knockback_dist" : 1,
+		"weighting" : -10,
+        "messages" : [
+            "You send %s reeling with both weapons",
+            "<npcname> sends %s reeling with both weapons"
+        ]
+},
+{
+        "type" : "technique",
+        "id" : "DUAL",
+        "name" : "Dual Strike",
+        "min_melee" : 3,
+        "unarmed_allowed" : true,
+        "melee_allowed" : true,
+        "speed_mult" : 0.5,
+        "bash_mult" : 0.66,
+        "cut_mult" : 0.66,
+		"weighting" : 20,
+        "messages" : [
+            "You strike with both weapons in quick succession",
+            "<npcname> quickly strikes with both weapons in quick succession"
+        ]
+}
+]
